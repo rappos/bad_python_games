@@ -24,11 +24,9 @@ def main():
             print("Det tog", number_of_guesses, "försök")
             correct_guess = True
         elif guess < chosen_word:
-            print("FEL!")
-            print("Ordet ligger senare i alfabetisk ordning")
+            print("Fel. Ordet ligger senare i alfabetisk ordning")
         elif guess > chosen_word:
-            print("FEL!")
-            print("Ordet ligger tidigare i alfabetisk ordning")
+            print("Fel. Ordet ligger tidigare i alfabetisk ordning")
 
         number_of_guesses += 1
 

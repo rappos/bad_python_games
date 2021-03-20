@@ -126,3 +126,4 @@ dmypy.json
 
 #IDEA
 .idea/
+.idea/misc.xml
